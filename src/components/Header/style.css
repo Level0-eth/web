@@ -1,0 +1,33 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 33px auto;
+}
+
+.header img {
+    object-fit: contain !important;
+}
+
+.header ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.header ul li {
+    margin: 0 24px;
+}
+
+.header ul li:last-child {
+    margin-right: 0;
+}
+
+.header ul li a {
+    text-decoration: none;
+    color: white;
+    transition: all 0.4s;
+}
+
+.header ul li a:hover {
+    color: rgba(255, 255, 255, 0.319);
+}

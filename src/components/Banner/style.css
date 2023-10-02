@@ -1,0 +1,110 @@
+.banner {
+    height: calc(100vh - 145px);
+    background: linear-gradient(
+        270deg,
+        rgba(217, 217, 217, 0.05) 0%,
+        rgba(217, 217, 217, 0) 100%
+    );
+    backdrop-filter: blur(25px);
+    display: flex;
+    position: relative;
+}
+
+.banner .left {
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(
+        180deg,
+        rgba(217, 217, 217, 0.05) 0%,
+        rgba(217, 217, 217, 0) 100%
+    );
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 80px;
+}
+
+.banner .left h1 {
+    color: #fff;
+    font-family: 'League Spartan Medium';
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 33px;
+}
+
+.banner .left .btn {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10.5px);
+    padding: 13px 36px;
+    font-family: 'League Spartan Medium';
+    color: rgba(255, 255, 255, 0.8);
+    width: fit-content;
+    border: none;
+    cursor: pointer;
+}
+
+.banner .right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.banner .right .content {
+    max-width: 328px;
+}
+
+.banner .right .content p {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: 'League Spartan Medium';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+}
+
+.banner .right .content .circles {
+    margin-bottom: 30px;
+}
+
+.banner .right .content .circles span {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.banner .right .content .circles span:nth-child(1) {
+    background: #ff5f56;
+}
+
+.banner .right .content .circles span:nth-child(2) {
+    background: #ffbd2e;
+    margin: 0 5px;
+}
+
+.banner .right .content .circles span:nth-child(3) {
+    background: #27c93f;
+}
+
+.banner .banner__bg {
+    width: 410px;
+    height: 410px;
+    border-radius: 200px;
+    background: rgba(16, 137, 255, 0.06);
+    filter: blur(100px);
+    position: absolute;
+    z-index: -100;
+}
+
+.banner .banner__bg.top__left {
+    top: -50%;
+    left: -10%;
+}
+
+.banner .banner__bg.bottom__right {
+    bottom: -50%;
+    right: -10%;
+}

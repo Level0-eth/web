@@ -8,10 +8,10 @@ import Banner from '../components/Banner/Banner';
 
 const IndexPage: React.FC<PageProps> = () => {
     return (
-        <body>
+        <>
             <Header />
             <Banner />
-        </body>
+        </>
     );
 };
 
